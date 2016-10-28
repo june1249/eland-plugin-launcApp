@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="eland-plugin-lauchApp"
     version="1.0.0">
-    <name>ElandLaunchApp<name>
+    <name>ElandLaunchApp</name>
     <description>Eland Plguin LaunchApp</description>
     <license>MIT</license>
     <keywords></keywords>
