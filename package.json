@@ -1,0 +1,27 @@
+{
+  "name": "eland-plugins-lauchApp",
+  "version": "1.0.0",
+  "description": "Eland Plugins LaunchApp",
+  "cordova": {
+    "id": "eland-plugins-lauchApp",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/june1249/eland-plugins-lauchApp.git"
+  },
+  "keywords": [
+    "Eland",
+    "LaunchApp",
+    "cordova-android"
+  ],
+  "author": "ElandSystems",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/june1249/eland-plugins-lauchApp/issues"
+  },
+  "homepage": "https://github.com/june1249/eland-plugins-lauchApp#readme"
+
+}

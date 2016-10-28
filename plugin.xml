@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="eland-plugin-lauchApp"
+    version="1.0.0">
+    <name>ElandLaunchApp<name>
+    <description>Eland Plguin LaunchApp</description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <repo>https://github.com/june1249/eland-plugin-launcApp.git</repo>
+    <issue>https://github.com/june1249/eland-plugin-launcApp/issues</issue>
+
+    <js-module src="www/elandaluchApp.js" name="LaunchAppPlugin">
+      <clobbers target="eland.plugin.lauchApp" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="LaunchApp">
+          <param name="android-package" value="com.eland.plugins.LaunchApp" />
+          <param name="onload" value="true" />
+        </feature>
+      </config-file>
+      <source-file src="src/android/com/eland/plugins/LaunchApp.java" target-dir="src/com/eland/plugins/" />
+    </platform>
+</plugin>
