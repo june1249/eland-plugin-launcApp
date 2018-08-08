@@ -11,7 +11,7 @@
     <issue>https://github.com/june1249/eland-plugin-launcApp/issues</issue>
 
     <js-module src="www/elandaluchApp.js" name="LaunchAppPlugin">
-      <clobbers target="eland.plugin.lauchApp" />
+      <clobbers target="cordova.plugin.lauchApp" />
     </js-module>
 
     <!-- android -->
